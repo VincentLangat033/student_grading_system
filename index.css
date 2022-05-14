@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(248, 249, 250); */
+
+}
+.myContainer{
+    padding: 1.0em;
+    padding-left: 2.0em;
+
+}
+.myQuizz{
+    background-color: #F8F2F2;
+    width: 60%;
+}
+
+.displayBoard{
+    height: 40px;
+    background-color: #B6DEE0;
+    width: 100%;
+}
+.startForm{
+    margin-top: 45px;
+}
+
+p{
+    background-color: #B6DEE0;
+    width: fit-content;
+    /* height: 25px;
+    align-content: center; */
+    font-size: large;
+}
+.myButton{
+    background-color: #B6DEE0;
+    
+    height: 30px;
+    width: 50px;
+    margin-left: 40px;
+}
