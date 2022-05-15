@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="myContainer">
+        <div class="myQuizz">
+            <div class="displayBoard">
+                <h1>TEST YOUR KNOWLEDGE IN PROGRAMMING!</h1> <br>
+                <h3> Each question is one mark</h3> <br>
+            </div>
+            <div class="startForm">
+                <form action="" name="myForm">
+                    <p>Q1. Which of the following is  not a property of OOP? </p> <br>
+                    <input type="radio" name="q1" value="A"> Abstraction<br> <br>
+                    <input type="radio" name="q1" value="B"> Encapsulation<br> <br>
+                    <input type="radio" name="q1" value="C"> Polymorphism<br> <br>
+                    <input type="radio" name="q1" value="D"> Metamorphism<br> <br>
+
+
+                    <p>Q2. What is CSS in Full?</p> <br>
+                    <input type="radio" name="q2" value="A"> Cascading Style stylesheet <br> <br>
+                    <input type="radio" name="q2" value="B"> Cascader Style element <br> <br>
+                    <input type="radio" name="q2" value="c"> Compile Style script <br> <br>
+                    <input type="radio" name="q2" value="D"> Dont Know <br> <br>
+
+                    <p>Q3.  What is HTML</p> <br>
+                    <input type="radio" name="q3" value="A"> HyperText Markup Language  <br>  <br>
+                    <input type="radio" name="q3" value="B"> HyperText Scripting Language <br>  <br>
+                    <input type="radio" name="q3" value="C"> Scripting  Language <br>  <br>
+                    <input type="radio" name="q3" value="D"> Coding Language <br>  <br>
+
+                    <p>Q4. What is a syntax?</p> <br>
+                    <input type="radio" name="q4" value="A"> Structure of a Langauge <br> <br>
+                    <input type="radio" name="q4" value="B"> A Programming Langauge <br> <br>
+
+                    <p>Q5. Is JAVA a low-level Language?</p> <br>
+                    <input type="radio" name="q5" value="A"> Yes <br> <br>
+                    <input type="radio" name="q5" value="B"> No <br><br> 
+
+                    <input type="button" value="Submit" onclick="yourScore()" class="myButton"> 
+
+    
+                </form>
+            </div>
+
+
+        </div>
+        <div class="myAnswers" id="display">
+            Your Final Score is :
+          <p id="displayForm"></p>
+          <button onclick="newComments()">Click To view additional comments1
+        </button>
+          <p id="viewComments"></p>
+
+        </div>
+    </div>
+    <script src="index.js"> </script>
+</body>
+</html>
