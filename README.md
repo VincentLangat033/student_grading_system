@@ -38,7 +38,7 @@ This website has been hosted remotely and you can access it on gh-pages via this
 ## Original Layout
 A link to the figma file which the initial design was conceptualized https://www.figma.com/file/BC4ZPGNKrK8P30ElfTiwzs/GradingSystem?node-id=0%3A1
 
-[](assets/grade.png)
+[](./assets/grade.png)
 
 
 ## License
