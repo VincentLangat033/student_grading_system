@@ -30,11 +30,7 @@ function yourScore(){
 
     }
     else if( finalScore>=60 && finalScore<80){
-<<<<<<< HEAD
         displayForm.innerHTML= "Your Score is " + finalScore + "%" + "Fairly Done"
-=======
-        displayForm.innerHTML= "Your Score is " + finalScore + "%" + "Fairly Doone"
->>>>>>> 9ebe40d0798e62d2060ba2c17c2849dcc051bbca
 
     }
     else if ( finalScore>=40 && finalScore<60){
