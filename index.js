@@ -30,7 +30,7 @@ function yourScore(){
 
     }
     else if( finalScore>=60 && finalScore<80){
-        displayForm.innerHTML= "Your Score is " + finalScore + "%" + "Fairly Done"
+        displayForm.innerHTML= "Your Score is " + finalScore + "%" + "Fairly Doone"
 
     }
     else if ( finalScore>=40 && finalScore<60){
@@ -42,10 +42,11 @@ function yourScore(){
 
     }
     
+    function newComments(){
+        var viewComments=document.getElementById("viewComments")
+        // viewComments.innerHTML="It is here"
+        alert("Hi")
+     }
 
 }
-function newComments(){
-   var viewComments=document.getElementById("viewComments")
-   viewComments.innerHTML="It is here"
-   
-}
+
