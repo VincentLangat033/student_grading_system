@@ -21,6 +21,7 @@
     height: 40px;
     background-color: #B6DEE0;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .startForm{
     margin-top: 45px;
@@ -41,6 +42,7 @@ p{
     margin-left: 40px;
 }
 .myAnswers{
-    background-color: blue;
+    /* background-color: blue; */
     width: 40%;
+    align-content: center;
 }
