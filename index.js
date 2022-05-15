@@ -26,33 +26,26 @@ function yourScore(){
     }
     var finalScore= result*20;
     if( finalScore>=80){
-        displayForm.innerHTML= "Your Score is " + finalScore + "%" + "Excellent"
+        displayForm.innerHTML= "Your Score is " + finalScore + "%" + "   "  + "Excellent"
 
     }
     else if( finalScore>=60 && finalScore<80){
-        displayForm.innerHTML= "Your Score is " + finalScore + "%" + "Fairly Done"
+        displayForm.innerHTML= "Your Score is " + finalScore + "%" + "  "  + "Fairly Done"
 
     }
     else if ( finalScore>=40 && finalScore<60){
-        displayForm.innerHTML="Your Score is " + finalScore + "%" + "Not Bad"
+        displayForm.innerHTML="Your Score is " + finalScore + "%"  + "  " + "Not Bad"
 
     }
     else if ( finalScore>=0 && finalScore<40){
-        displayForm.innerHTML="Your Score is " + finalScore + "%" + "Try Again!"
+        displayForm.innerHTML="Your Score is " + finalScore + "%"   + "  " + "Try Again!"
 
     }
   
 
 }
-var newComments=document.getElementById("viewComments")
-
-
-<<<<<<< HEAD
-}
 function newComments(){
-   var viewComments=document.getElementById("viewComments")
-   viewComments.innerHTML="It is here"
-   
+    var displayComments=document.getElementById("viewComments")
+    displayComments.innerHTML="Thank you for taking your time to attempt this questions"
 }
-=======
->>>>>>> 9ebe40d0798e62d2060ba2c17c2849dcc051bbca
+
