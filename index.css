@@ -14,7 +14,7 @@
 }
 .myQuizz{
     background-color: #F8F2F2;
-    width: 60%;
+    width: 65%;
 }
 
 .displayBoard{
@@ -45,4 +45,13 @@ p{
     /* background-color: blue; */
     width: 40%;
     /* align-content: center; */
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.headerOne{
+    background-color: #B6DEE0;
+    width: fit-content;
+}
+.h31{
+    color: red;
 }
