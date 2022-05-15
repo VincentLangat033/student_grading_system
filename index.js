@@ -41,12 +41,9 @@ function yourScore(){
         displayForm.innerHTML="Your Score is " + finalScore + "%" + "Try Again!"
 
     }
-    
-    function newComments(){
-        var viewComments=document.getElementById("viewComments")
-        // viewComments.innerHTML="It is here"
-        alert("Hi")
-     }
+  
 
 }
+var newComments=document.getElementById("viewComments")
+
 
