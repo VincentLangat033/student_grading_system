@@ -1,6 +1,6 @@
 ### Student-Grading-System
 ##### By Vincent Kimutai Langat.
-###### This is a student grading System to inspect the implementation of JavaScript in Submitting data, enabling a student to answer questions and generate a subsequent grade with regard to answers given and finally leaving some comments
+This is a student grading System to inspect the implementation of JavaScript in Submitting data, enabling a student to answer questions and generate a subsequent grade with regard to answers given and finally leaving some comments
 
 ## Table of Content
 
@@ -38,7 +38,7 @@ This website has been hosted remotely and you can access it on gh-pages via this
 ## Original Layout
 A link to the figma file which the initial design was conceptualized https://www.figma.com/file/BC4ZPGNKrK8P30ElfTiwzs/GradingSystem?node-id=0%3A1
 
-[](assets/grade.png)
+<img src="assets/grade.png" alt="">
 
 
 ## License
