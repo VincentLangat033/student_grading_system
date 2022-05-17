@@ -15,7 +15,7 @@
                 <h3 class="h31"> Note that Each question is one mark</h3> <br> <br>
             </div>
             <div class="startForm">
-                <form action="" name="myForm">
+                <form action="" name="myForm" id="quizForm">
                     <p>Q1. Which of the following is  not a property of OOP? </p> <br>
                     <input type="radio" name="q1" value="A"> Abstraction<br> <br>
                     <input type="radio" name="q1" value="B"> Encapsulation<br> <br>
@@ -44,6 +44,7 @@
                     <input type="radio" name="q5" value="B"> No <br><br> 
 
                     <input type="button" value="Submit" onclick="yourScore()" class="myButton"> 
+                    <input type="reset" value="Clear" onclick="clearSect()" class="myButton"> 
 
     
                 </form>
@@ -56,7 +57,8 @@
             <h1 class="headerOne">TEST RESULTS</h1> <br> <br>
             Your Final Score is : <br>
           <p id="displayForm"></p> <br> <br>
-          <button onclick="newComments()">Click To view additional comments
+          <button onclick="newComments()">Click To view  comments based on perfomance <br>
+            
         </button>
           <p id="viewComments"></p>
 
